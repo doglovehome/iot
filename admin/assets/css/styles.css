@@ -1,0 +1,104 @@
+.box-graph {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 0px 5px rgba(150, 150, 150, 0.4);
+    display: block;
+    overflow-x: auto;
+    font-size: 12px;
+}
+
+th {
+    font-size: 12px;
+}
+
+td {
+    font-size: 12px;
+}
+
+tr {
+    vertical-align: middle;
+}
+
+table.dataTable>thead .sorting:before , table.dataTable>thead .sorting::after , table.dataTable>thead .sorting::before , table.dataTable > thead .sorting_asc::before ,table.dataTable > thead .sorting_desc::before , table.dataTable > thead .sorting_desc::after , table.dataTable > thead .sorting_asc::after {
+    bottom: 0.7em !important;
+}
+
+tr:hover {
+   background-color: rgba(231, 177, 26, 0.178);
+}
+
+.btn {
+    color: #FFF;
+    font-size: 12px;
+}
+
+.btn:hover {
+    color: #FFF;
+    box-shadow: 0px 2px 5px rgba(150, 150, 150, 0.4);
+}
+
+.custom-select {
+    font-family: Arial !important;
+}
+
+
+label > input {
+    margin: 0 5px;
+}
+
+select {
+    margin: 0 10px ;
+}
+
+select > * , select{
+    font-size: 12px !important;
+}
+
+.dataTables_info {
+    display: none;
+}
+
+.dataTables_length , .dataTables_filter  {
+    margin: 5px 0 !important;
+}
+
+
+
+#data_table_previous {
+    display: none;
+}
+
+#data_table_next {
+    display: none;
+}
+
+.pagination {
+    margin: 20px 0 !important;
+}
+
+
+.page-link , .page-item{
+    border: 0 !important;
+    margin: 0 10px;
+    border-radius: 50%;
+    padding: 6px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.ep-now {
+    color: rgb(30, 241, 11);
+}
+
+.page-item.active .page-link {
+    box-shadow: 0px 2px 5px rgba(150, 150, 150, 0.4);
+}
+
+button > a , button > a:focus , button > a:hover {
+    color: #FFF !important;
+}

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
+
+* {
+    font-family: 'Mitr', sans-serif;
+    color: rgb(112, 112, 112);
+    text-decoration: none !important;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(236, 236, 236);
+}
+
+.wrapper {
+    background-color: rgb(65, 154, 238);    
+    width: 600px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0 , 0.4);
+}
+
+.container-fluid {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: auto auto;
+}
+
+.logo-login {
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 25%;
+}
+
+/* form  */
+.form-login {
+    padding: 10px;
+    display:flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 0 20px;
+}
+
+.sub-head {
+    text-align: center;
+    font-size: 10px;
+    position: relative;
+    margin-top: -25px;
+    margin-bottom: 25px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+input {
+    margin: 6px 0;
+    width: 200px;
+    font-size: 12px;
+    border: 0;
+    box-shadow: 0px 0px 2px rgb(0, 0, 0 , 0.4);
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: teal;
+}
+
+input:focus {
+    outline: none;
+}
+
+::placeholder {
+    font-size: 11px;
+}
+
+/* submit  */
+
+.btn-login {
+    margin: 12px 0 0 30px;
+    border: 0;
+    font-size: 14px;
+    background-color: rgb(35, 181, 181,1);
+    border-radius: 20px;
+    width: 70%;
+    box-shadow: 0px 0px 4px rgb(0, 0, 0 , 0.4);
+    height: 30px;
+    color:#FFF;
+}
+
+.btn-login:focus {
+    outline: none;
+}
+
+.sub-forget {
+    font-size: 8px;
+    position:relative;
+    float: right;
+    margin: 4px 2px 0 0;
+}
+
+.register {
+    text-align: center;
+    color: white !important;
+    font-size: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.76);
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+.register:hover {
+    background-color: rgba(255, 255, 255, 0.205);
+}
+
+
+
+@media screen and (max-width : 575px ){
+    .logo-login {
+        margin-top: 0;
+        padding: 10px;
+    }
+}
